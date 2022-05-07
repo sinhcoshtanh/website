@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    text-align: center;
+}
+
+h1
+{
+    color: #ff5733;
+    font-size: 5rem;
+    font-family: 'Beau Rivage', cursive;
+}
+
+h2
+{
+
+    color: #EEEEEE;
+    font-size: 2rem;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+/* Container formating*/
+.top-container
+{
+    background-color: #161616;
+    padding-top: 0.75rem;
+    padding-bottom: 2rem;
+}
+
+/*Buttons*/
+.button
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 2rem;
+    position: relative;
+    color: #EEEEEE;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*Button 1*/
+
+.btn-1
+{
+    background: #161616;
+    border-width: thin;
+    border-color: #EEEEEE;
+}
+
+.btn-1 {
+    border-color: #04AA6D;
+    color: green;
+  }
+  
+  .success:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
