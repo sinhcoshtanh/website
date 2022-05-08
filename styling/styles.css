@@ -1,7 +1,14 @@
+#wholepage
+{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body
 {
     margin: 0 0;
-    background-color: #131c2a;
+    background-color: #0a0f17;
     text-align: center;
 }
 
@@ -9,23 +16,24 @@ body
 h1
 {
     color: #ff5733;
-    position: relative;
     text-decoration: none;
-    font-size: 5rem;
-    font-family: 'Beau Rivage', cursive;
+    font-size: 4rem;
+    font-family: 'Gloria Hallelujah', cursive;
     margin: 2rem;
     padding: 0 10px;
+    text-align: center;
+    position: relative;
 }
 
 h1:after
 {
     content: "";
-    position: absolute;
+    position: relative;
     background-color: #ff5733;
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -10px;
+    bottom: -1px;
     transition: 1s;
 }
 
@@ -38,15 +46,17 @@ h2
 {
     color: #EEEEEE;
     font-size: 2rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin: 2rem 0rem;
+    position: static;
 }
 
 p
 {
     color: #EEEEEE;
-    font-size:1.25rem;
+    font-size:1rem;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
 }
 
 a
@@ -55,9 +65,9 @@ a
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     color: #a0a0a0;
-    font-size: 18px;
+    font-size: 1rem;
     letter-spacing: 0.5px;
-    padding: 0 10px;
+    padding: 2px;
 }
 
 a:after
@@ -83,26 +93,30 @@ a:hover:after
 }
 
 /* Container formating*/
+
 .top-container
 {
     background-color: #0a0f17;
-    margin: 0rem 2rem 2rem 2rem;
+    margin: 0rem 30rem 2rem 30rem;
     padding-top: 0.75rem;
     padding-bottom: 2rem;
+    position: relative;
 }
 
 .middle-container
 {
     background-color: #0a0f17;
-    margin: 0rem 2rem 2rem 2rem;
+    margin: 0rem 30rem 2rem 30rem;
     padding: 2px 0.5rem 0.5rem 0.5rem;
+    position: relative;
 }
 
 .bottom-container
 {
     background-color: #0a0f17;
-    margin: 2rem;
+    margin: 0rem 30rem 2rem 30rem;
     padding: 1rem 0.5rem 0.5rem 0.5rem;
+    position: relative;
 }
 
 /*Buttons*/
@@ -114,7 +128,7 @@ a:hover:after
     margin: 10px ;
     position: relative;
     color: #EEEEEE;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /*Button 1*/
@@ -155,9 +169,10 @@ a:hover:after
 
 table, th, td 
 {
-    position: left;
+    position: center;
     border: none;
     color: #EEEEEE;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.25rem;
 }
+
