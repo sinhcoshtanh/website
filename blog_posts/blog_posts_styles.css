@@ -113,6 +113,16 @@ ul{
     padding-bottom: 0px;
 }
 
+#blog_images:hover{
+
+}
+
+.pc_part_list_image:hover{
+    transition: 0.5s ease;
+    opacity: 0.5;
+
+}
+
 /* Container formating*/
 .top-container{
     background-color:  #0a0f17;
