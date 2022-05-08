@@ -1,66 +1,68 @@
-#wholepage
-{
-    width: 1440px;
+* {
+    margin:0;
+    padding:0
+   }
+   @supports(scroll-behavior: smooth) {
+    html {
+     scroll-behavior:smooth
+    }
+   }
+
+#wholepage{
+    min-width: 320px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
-body
-{
-    margin: 0 0;
+body{
+    margin: 0;
     background-color: #0a0f17;
     text-align: center;
 }
 
-
-h1
-{
+h1{
     color: #ff5733;
     text-decoration: none;
     font-size: 4rem;
     font-family: 'Gloria Hallelujah', cursive;
-    margin: 2rem;
-    padding: 0 10px;
     text-align: center;
     position: relative;
 }
 
-h1:after
-{
-    content: "";
-    position: relative;
-    background-color: #ff5733;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -1px;
-    transition: 1s;
+h1:hover{
+    content:"";
+    color: #ff5733;
+    animation-name: glow;
+    animation-duration: 4s;
 }
 
-h1:hover:after
-{
-    width: 100%;
-}
+@keyframes glow {
+    0% {color: #ff5733;}
+    50% {color: #00d0ff;}
+    100%  {color: #ff5733;}
+  }
 
-h2
-{
+h2{
     color: #EEEEEE;
     font-size: 2rem;
     font-family: 'Roboto Slab', serif;
-    margin: 2rem 0rem;
     position: static;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-p
-{
+p, ul{
     color: #EEEEEE;
-    font-size:1rem;
+    font-size:1.1rem;
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.8;
     text-align: left;
+    padding-bottom: 1.5rem;
 }
 
-a
-{
+a{
     position: relative;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
@@ -70,8 +72,7 @@ a
     padding: 2px;
 }
 
-a:after
-{
+a:after{
     content: "";
     position: absolute;
     background-color: #ff5733;
@@ -82,46 +83,38 @@ a:after
     transition: 0.3s;
 }
 
-a:hover
-{
+a:hover{
     color: #ffffff;
 }
 
-a:hover:after
-{
+a:hover:after{
     width: 100%;
 }
 
 /* Container formating*/
-
-.top-container
-{
-    background-color: #0a0f17;
-    margin: 0rem 30rem 2rem 30rem;
-    padding-top: 0.75rem;
-    padding-bottom: 2rem;
+.top-container{
+    background-color:  #0a0f17;
+    margin: 2rem;
+    min-width: 200px;
     position: relative;
 }
 
-.middle-container
-{
+.middle-container{
     background-color: #0a0f17;
-    margin: 0rem 30rem 2rem 30rem;
-    padding: 2px 0.5rem 0.5rem 0.5rem;
+    margin: 2rem;
+    min-width: 200px;
     position: relative;
 }
 
-.bottom-container
-{
+.bottom-container{
     background-color: #0a0f17;
-    margin: 0rem 30rem 2rem 30rem;
-    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    margin: 2rem;
+    min-width: 200px;
     position: relative;
 }
 
 /*Buttons*/
-.btn
-{
+.btn{
     text-decoration: none;
     font-size: 1.5rem;
     padding: 10px;
@@ -132,47 +125,59 @@ a:hover:after
 }
 
 /*Button 1*/
-.btn-1
-{
+.btn-1{
     z-index: 0;
     color: #EEEEEE;
 }
   
-.btn-1:hover
-{
+.btn-1:hover{
     color: white;
 }
   
 /*Button 2*/
-.btn-2
-{
+.btn-2{
     z-index: 0;
     color: #EEEEEE;
 }
   
-.btn-2:hover
-{
+.btn-2:hover{
     color: white;
 }
 
 /*Button 3*/
-.btn-3
-{
+.btn-3{
     z-index: 0;
     color: #EEEEEE;
 }
   
-.btn-3:hover
-{
+.btn-3:hover{
     color: white;
 }
 
-table, th, td 
-{
+table, td {
     position: center;
-    border: none;
+    border: dashed;
+    border-color: #373737;
+    border-collapse: collapse;
     color: #EEEEEE;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.25rem;
+    height: 2rem;
+    text-align: left;
 }
 
+thead{
+    color: #00d0ff;
+}
+
+th{
+    padding:1rem;
+}
+
+td{
+    padding:1rem;
+}
+
+.moon{
+    position: center;
+}
