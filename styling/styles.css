@@ -1,12 +1,12 @@
 * {
     margin:0;
     padding:0
-   }
-   @supports(scroll-behavior: smooth) {
-    html {
-     scroll-behavior:smooth
     }
-   }
+    @supports(scroll-behavior: smooth) {
+    html {
+    scroll-behavior:smooth
+    }
+    }
 
 #wholepage{
     min-width: 320px;
@@ -42,7 +42,7 @@ h1:hover{
     0% {color: #ff5733;}
     50% {color: #00d0ff;}
     100%  {color: #ff5733;}
-  }
+}
 
 h2{
     color: #EEEEEE;
@@ -146,7 +146,7 @@ ul{
 /*Buttons*/
 .btn{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 10px;
     margin: 10px ;
     position: relative;
@@ -159,17 +159,17 @@ ul{
     z-index: 0;
     color: #EEEEEE;
 }
-  
+
 .btn-1:hover{
     color: white;
 }
-  
+
 /*Button 2*/
 .btn-2{
     z-index: 0;
     color: #EEEEEE;
 }
-  
+
 .btn-2:hover{
     color: white;
 }
@@ -179,7 +179,7 @@ ul{
     z-index: 0;
     color: #EEEEEE;
 }
-  
+
 .btn-3:hover{
     color: white;
 }
