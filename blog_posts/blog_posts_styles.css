@@ -211,3 +211,10 @@ td{
 .moon{
     position: center;
 }
+
+.bottom-text{
+    position: center;
+    font-size:1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#d8d8d8;
+}
