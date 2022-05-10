@@ -12,5 +12,6 @@ While I don't have any aspirations of becoming a web developer as of yet. I do h
 As mentioned, one of the key purpose for the website is to publish blog posts. All opinions are my own. A directory for every blogposts can be found below or for a directory on the website can be found [here](blog_posts/blog_posts.html)
 
 |Name|Date Published|Link (new window)|
+|---|:---:|:---:|
 |PC Parts List|09-05-2022|<a href="blog_posts/pc_parts_list.html" target="_blank">|
 |File Naming Convention|09-05-2022|<a href="blog_posts/file_naming_convention.html" target="_blank">|
