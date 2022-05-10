@@ -13,5 +13,5 @@ As mentioned, one of the key purpose for the website is to publish blog posts. A
 
 |Name|Date Published|Link (new window)|
 |---|:---:|:---:|
-|PC Parts List|09-05-2022|<a href="blog_posts/pc_parts_list.html" target="_blank">|
-|File Naming Convention|09-05-2022|<a href="blog_posts/file_naming_convention.html" target="_blank">|
+|PC Parts List|09-05-2022|<a href="blog_posts/pc_parts_list.html" target="_blank">&uarr;</a>|
+|File Naming Convention|09-05-2022|<a href="blog_posts/file_naming_convention.html" target="_blank">&uarr;</a>|
